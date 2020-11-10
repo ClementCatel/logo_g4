@@ -1,0 +1,26 @@
+// COLORS
+
+$black--color: #333333;
+$white--color: #FBFCFA;
+$orange--color: #FF8C00;
+
+.black--bg {
+  background-color: $black--color;
+}
+.black--text {
+  color: $black--color;
+}
+
+.white--bg {
+  background-color: $white--color;
+}
+.white--text {
+  color: $white--color;
+}
+
+.orange--bg {
+  background-color: $orange--color;
+}
+.orange--text {
+  color: $orange--color;
+}
