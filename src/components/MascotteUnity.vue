@@ -1,6 +1,6 @@
 <template>
-    <div class="webgl-content">
-        <div id="unityContainerMascotte"/>
+    <div class="webgl-content" style="width: 100%; height: 100%">
+        <div id="unityContainerMascotte" style="width: 100%; height: 100%"></div>
 <!--        <div class="footer">-->
 <!--          <div class="webgl-logo"/>-->
 <!--          <div class="fullscreen" onclick="unityInstanceMascotte.SetFullscreen(1)"/>-->
@@ -18,8 +18,4 @@ export default {
 <style scoped lang="scss">
   //@import "~@/assets/Unity/unity.css";
 
-  //.webgl-content {
-  //  position: relative;
-  //  display: block;
-  //}
 </style>

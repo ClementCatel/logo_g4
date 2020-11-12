@@ -1,68 +1,70 @@
 <template>
-  <v-app class="white--bg" id="app">
-    <v-app-bar
-      absolute
-      color="transparent"
-      elevation="0"
-    >
-
-<!--      <v-toolbar-title class="font-weight-bold ml-5">Mascotte G4</v-toolbar-title>-->
-
-      <v-spacer/>
-
-      <v-btn
-        :href="$router.resolve({name: 'Home'}).href"
-        rounded
+  <div class="app-container">
+      <!-- <v-app-bar
+        absolute
+        color="transparent"
+        elevation="0"
       >
-        <v-icon class="mr-2">mdi-home</v-icon>
-        Accueil
-      </v-btn>
 
-      <span class="mx-5"/>
+      <v-toolbar-title class="font-weight-bold ml-5">Mascotte G4</v-toolbar-title
 
-      <v-btn
-        :href="$router.resolve({name: 'Interactions'}).href"
-        rounded
-      >
-        <v-icon class="mr-2">mdi-gamepad-variant</v-icon>
-        Intéractions 3D
-      </v-btn>
+        <v-spacer/>
 
-      <span class="mx-5"/>
+        <v-btn
+          :href="$router.resolve({name: 'Home'}).href"
+          rounded
+        >
+          <v-icon class="mr-2">mdi-home</v-icon>
+          Accueil
+        </v-btn>
 
-      <v-btn
-        :href="$router.resolve({name: 'RA'}).href"
-        rounded
-      >
-        <v-icon class="mr-2">mdi-qrcode</v-icon>
-        Réalité Augmentée
-      </v-btn>
+        <span class="mx-5"/>
 
-      <span class="mx-5"/>
+        <v-btn
+          :href="$router.resolve({name: 'Interactions'}).href"
+          rounded
+        >
+          <v-icon class="mr-2">mdi-gamepad-variant</v-icon>
+          Intéractions 3D
+        </v-btn>
 
-      <v-btn
-        :href="$router.resolve({name: 'Downloads'}).href"
-        rounded
-      >
-        <v-icon class="mr-2">mdi-download</v-icon>
-        Téléchargements
-      </v-btn>
+        <span class="mx-5"/>
 
-      <v-spacer/>
+        <v-btn
+          :href="$router.resolve({name: 'RA'}).href"
+          rounded
+        >
+          <v-icon class="mr-2">mdi-qrcode</v-icon>
+          Réalité Augmentée
+        </v-btn>
 
-    </v-app-bar>
-    <router-view/>
-  </v-app>
+        <span class="mx-5"/>
+
+        <v-btn
+          :href="$router.resolve({name: 'Downloads'}).href"
+          rounded
+        >
+          <v-icon class="mr-2">mdi-download</v-icon>
+          Téléchargements
+        </v-btn>
+
+        <v-spacer/>
+
+      </v-app-bar> -->
+      <navbar></navbar>
+      <router-view/>  
+  </div>
 </template>
+
+<script>
+import Navbar from '@/components/Navbar'
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
 
 <style lang="scss">
   @import "assets/style";
-
-  html {
-    body {
-      #app {
-
-      }
-    }
-  }
 </style>

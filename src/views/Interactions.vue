@@ -1,10 +1,6 @@
 <template>
-  <div class="container--fluid black--bg">
-    <div class="row">
-      <div class="col-12 pa-0">
-        <RoomUnity />
-      </div>
-    </div>
+  <div class="container">
+    <RoomUnity />
   </div>
 </template>
 
