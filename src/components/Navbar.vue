@@ -40,7 +40,7 @@ export default {
       background-color: #FFF;
       padding: 10px 20px;
       border-radius: 24px;
-      box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12)!important;
+      box-shadow: 0 5px 35px 0 rgba(0,0,0,.3);
       transition: all .5s;
       .btn-content {
         align-items: center;
