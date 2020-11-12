@@ -46,6 +46,7 @@ export default {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 16px;
     font-size: 22px;
+    font-weight: 300;
     box-shadow: 0 5px 25px 0 rgba(0,0,0,.2);
   }
   p {
