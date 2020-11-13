@@ -4,7 +4,7 @@
     <MascotteUnity />
     <div id="description">
       <p class="title">
-        Salut toi !<br/>Je m'appelle Samy et je suis la nouvelle mascotte de l'école !
+        Salut toi ! Je m'appelle Samy et je suis la nouvelle mascotte de l'école !
       </p>
       <p>
         Etudiant à l'institut G4, j'ai choisi cette école car elle possède des valeurs dans lesquelles je me reconnais grandement :
@@ -60,7 +60,6 @@ export default {
   box-shadow: 0 5px 25px 0 rgba(0,0,0,.2);
   transition:opacity 500ms;
   .title {
-    text-align: center;
     line-height: 40px;
     padding-bottom: 18px;
     color: white;

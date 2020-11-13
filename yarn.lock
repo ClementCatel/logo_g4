@@ -5569,7 +5569,7 @@ md5.js@^1.3.4:
     inherits "^2.0.1"
     safe-buffer "^5.1.2"
 
-mdbvue@6.7.1:
+mdbvue@^6.7.1:
   version "6.7.1"
   resolved "https://registry.yarnpkg.com/mdbvue/-/mdbvue-6.7.1.tgz#3e50f2896047e14f8f5ee449461509b9737ae60d"
   integrity sha512-E0Y8Dw4JNERHd+zLnswf1/DqS4g5BhB5DzOv1I7ACsmc8VqtQEZ+vjyCJOTB2HdlGew6ynH/hz3/dCQ35QAF0g==
