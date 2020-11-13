@@ -1,11 +1,10 @@
 <template>
-    <div class="webgl-content" style="width: 100%; height: 100%">
-        <div id="unityContainerRoom" style="width: 100%; height: 100%"/>
-<!--        <div class="footer">-->
-<!--          <div class="webgl-logo"/>-->
-<!--          <div class="fullscreen" onclick="unityInstanceRoom.SetFullscreen(1)"/>-->
-<!--          <div class="title">Cercle de projet 2020</div>-->
-<!--        </div>-->
+    <div class="webgl-content">
+      <div id="unityContainerRoom"/>
+      <div class="text-right"><p>En fullscreen c'est mieux 😉</p></div>
+       <div class="footer">
+          <div class="fullscreen" onclick="unityInstanceRoom.SetFullscreen(1)"/>
+      </div>
     </div>
 </template>
 
@@ -17,4 +16,8 @@ export default {
 
 <style scoped lang="scss">
   @import "~@/assets/Unity/unity.css";
+  
+  #unityContainerRoom {
+    background-color: #69625C !important  ;
+  }
 </style>

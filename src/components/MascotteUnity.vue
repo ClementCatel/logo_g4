@@ -1,11 +1,6 @@
 <template>
-    <div class="webgl-content" style="width: 100%; height: 100%">
-        <!-- <div id="unityContainerMascotte" style="width: 100%; height: 100%"></div>
-        <div class="footer">
-          <div class="webgl-logo"/>
-          <div class="fullscreen" onclick="unityInstanceMascotte.SetFullscreen(1)"/>
-          <div class="title">Cercle de projet 2020</div>
-        </div> -->
+    <div class="webgl-content">
+        <div id="unityContainerMascotte"></div>
     </div>
 </template>
 
@@ -17,5 +12,11 @@ export default {
 
 <style scoped lang="scss">
   //@import "~@/assets/Unity/unity.css";
+  #unityContainerMascotte {
+    background-color:#628066 !important;
+  }
 
+  .webgl-content {
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+  }
 </style>
